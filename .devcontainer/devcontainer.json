@@ -1,0 +1,37 @@
+{
+    "name": "Cloud Laboratorio - Máster FrontEnd Online LemonCode XVII",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "."
+    },
+    "runArgs": [
+        "--net=host"
+    ],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "editor.insertSpaces": true
+            },
+            "extensions": [
+                "bradlc.vscode-tailwindcss",
+                "sdras.night-owl",
+                "ms-vscode.vscode-typescript-next",
+                "yoavbls.pretty-ts-errors",
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint",
+                "EditorConfig.EditorConfig",
+                "eamodio.gitlens",
+                "GitHub.vscode-github-actions",
+                "redhat.vscode-yaml",
+                "yoavbls.pretty-ts-errors"
+            ]
+        }
+    },
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+    ],
+    "remoteUser": "vscode",
+    "postCreateCommand": "bash ./.devcontainer/scripts/post-create-command.sh",
+    "shutdownAction": "stopContainer"
+}
