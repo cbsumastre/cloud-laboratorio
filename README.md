@@ -1,4 +1,4 @@
-# Master Front End XVII - Módulo 7 - Cloud - Descripción Laboratorio
+# Master Front End XVII - Módulo 7 - Cloud - Laboratorio
 
 ## Modulo Cloud - Laboratorio
 
