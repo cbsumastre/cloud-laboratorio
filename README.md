@@ -6,7 +6,7 @@
 
 1. Desplegar en Github Pages de forma manual:
 
-   - Tenemos un repo en Github.
+   - Tenemos un repo en Github [https://github.com/cbsumastre/cloud-laboratorio-render-manual](https://github.com/cbsumastre/cloud-laboratorio-render-manual)
    - Queremos desplegar una app.
    - Realizar el despliegue manual.
 
