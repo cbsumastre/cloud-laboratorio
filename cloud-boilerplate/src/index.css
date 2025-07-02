@@ -1,3 +1,13 @@
+/* Light mode (default) */
+:root {
+    --background: linear-gradient(to right, #cfe0fc, #d9c9ff);
+    --card-background: #ffffff;
+    --text-color: #1f2937;
+    --title-color: #1f2937;
+    --subtitle-color: #4b5563;
+    --tagline-color: #6b7280;
+}
+
 body,
 html {
     margin: 0;
@@ -42,4 +52,52 @@ html {
     font-size: 0.875rem;
     color: #6b7280;
     margin-top: 0.75rem;
+}
+
+.presentation-tagline a {
+    text-decoration: underline;
+    color: var(--subtitle-color);
+    font-weight: 900;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.social-icon {
+    color: var(--subtitle-color);
+    transition: color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    position: relative;
+}
+
+.social-icon:hover {
+    color: var(--title-color);
+    transform: scale(1.2);
+}
+
+/* Tooltip opcional */
+.social-icon::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -1.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--card-background);
+    color: var(--text-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.social-icon:hover::after {
+    opacity: 1;
 }
