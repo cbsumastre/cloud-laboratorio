@@ -6,11 +6,11 @@
 
 1. Desplegar en Github Pages de forma manual:
 
-   - Tenemos un repo en Github [https://github.com/cbsumastre/cloud-laboratorio-render-manual](https://github.com/cbsumastre/cloud-laboratorio-render-manual)
+   - Tenemos un repo en Github [https://github.com/cbsumastre/cloud-laboratorio-gh-pages-manual](https://github.com/cbsumastre/cloud-laboratorio-gh-pages-manual)
    - Queremos desplegar una app.
    - Realizar el despliegue manual.
 
-2. Automatizar el proceso de despliegue:
+2. Automatizar el proceso de despliegue: [https://github.com/cbsumastre/cloud-laboratorio-gh-pages-autom](https://github.com/cbsumastre/cloud-laboratorio-gh-pages-autom)
 
    - Queremos que cada vez que se haga un merge a la rama principal de este ejercicio, se dispare un flujo de build y despliegue.
    - Usar Github Actions para esto.
@@ -23,7 +23,7 @@ _Es importante saber que Github necesita que los workflows estén en la ruta rai
 
 Elegir en el orden que se desee:
 
-1. Desplegar la app en Render, usando despliegue manual.
-2. Automatizar el despliegue de la app en Render, usando Docker.
-3. Desplegar la app en Azure, usando Docker y Github Actions.
-4. Desplegar la app en AWS y la imagen de Docker en Docker Hub.
+1. Desplegar la app en Render, usando despliegue manual. [https://github.com/cbsumastre/cloud-laboratorio-render-manual](https://github.com/cbsumastre/cloud-laboratorio-render-manual)
+2. Automatizar el despliegue de la app en Render, usando Docker. [https://github.com/cbsumastre/cloud-laboratorio-render-docker](https://github.com/cbsumastre/cloud-laboratorio-render-docker)
+3. Desplegar la app en Azure, usando Docker y Github Actions. [https://github.com/cbsumastre/cloud-laboratorio-azure-docker-gh-actions](https://github.com/cbsumastre/cloud-laboratorio-azure-docker-gh-actions)
+4. Desplegar la app en AWS y la imagen de Docker en Docker Hub. [https://github.com/cbsumastre/cloud-laboratorio-aws-docker-hub](https://github.com/cbsumastre/cloud-laboratorio-aws-docker-hub)
