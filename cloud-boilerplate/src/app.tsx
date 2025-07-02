@@ -1,17 +1,9 @@
-import React from 'react';
-import { ThemeProviderComponent } from '#core/theme';
-import { RouterComponent } from '#core/router';
+import React from 'react'
+import { RouterComponent } from '#core/router'
+import './index.css'
 
-const App: React.FunctionComponent = () => {
-  return <RouterComponent />;
-};
+const App: React.FC = () => {
+  return <RouterComponent />
+}
 
-const AppProviders: React.FunctionComponent = () => {
-  return (
-    <ThemeProviderComponent>
-      <App />
-    </ThemeProviderComponent>
-  );
-};
-
-export default AppProviders;
+export default App
