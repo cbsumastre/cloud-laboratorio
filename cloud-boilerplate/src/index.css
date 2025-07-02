@@ -1,4 +1,3 @@
-/* Light mode (default) */
 :root {
     --background: linear-gradient(to right, #cfe0fc, #d9c9ff);
     --card-background: #ffffff;
@@ -13,7 +12,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #cfe0fc, #d9c9ff);
+    background: var(--background);
     min-height: 100vh;
 }
 
@@ -30,7 +29,7 @@ html {
     width: 100%;
     max-width: 420px;
     padding: 1.5rem;
-    background-color: #ffffff;
+    background-color: var(--card-background);
     border-radius: 1rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -39,24 +38,23 @@ html {
 .presentation-title {
     font-size: 2rem;
     font-weight: bold;
-    color: #1f2937;
+    color: var(--title-color);
     margin-bottom: 1rem;
 }
 
 .presentation-subtitle {
     font-size: 1.125rem;
-    color: #4b5563;
+    color: var(--subtitle-color);
 }
 
 .presentation-tagline {
     font-size: 0.875rem;
-    color: #6b7280;
+    color: var(--subtitle-color);
     margin-top: 0.75rem;
 }
 
 .presentation-tagline a {
     text-decoration: underline;
-    color: var(--subtitle-color);
     font-weight: 900;
 }
 
@@ -79,7 +77,6 @@ html {
     transform: scale(1.2);
 }
 
-/* Tooltip opcional */
 .social-icon::after {
     content: attr(data-tooltip);
     position: absolute;
