@@ -1,7 +1,7 @@
 {
-  "name": "rick-morty-rest-api-exercise-opcional",
+  "name": "cbsumastre",
   "version": "1.0.0",
-  "description": "Rick and Morty Rest API Ejercicio Opcional (GraphQL)",
+  "description": "cbsumastre",
   "type": "module",
   "scripts": {
     "start": "vite --port 8080",
