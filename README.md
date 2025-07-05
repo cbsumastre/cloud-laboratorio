@@ -8,12 +8,12 @@
 
    - Tenemos un repo en Github [https://github.com/cbsumastre/cloud-laboratorio-gh-pages-manual](https://github.com/cbsumastre/cloud-laboratorio-gh-pages-manual)
    - Queremos desplegar una app.
-   - Realizar el despliegue manual.
+   - Realizar el despliegue manual. ✅
 
 2. Automatizar el proceso de despliegue: [https://github.com/cbsumastre/cloud-laboratorio-gh-pages-autom](https://github.com/cbsumastre/cloud-laboratorio-gh-pages-autom)
 
    - Queremos que cada vez que se haga un merge a la rama principal de este ejercicio, se dispare un flujo de build y despliegue.
-   - Usar Github Actions para esto.
+   - Usar Github Actions para esto. ✅
 
 _Para simplificar la entrega de los ejercicios podéis crear un repositorio por cada uno._
 
