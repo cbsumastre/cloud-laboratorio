@@ -25,5 +25,5 @@ Elegir en el orden que se desee:
 
 1. Desplegar la app en Render, usando despliegue manual. [https://github.com/cbsumastre/cloud-laboratorio-render-manual](https://github.com/cbsumastre/cloud-laboratorio-render-manual) ✅
 2. Automatizar el despliegue de la app en Render, usando Docker. [https://github.com/cbsumastre/cloud-laboratorio-render-docker](https://github.com/cbsumastre/cloud-laboratorio-render-docker) ✅
-3. Desplegar la app en Azure, usando Docker y Github Actions. [https://github.com/cbsumastre/cloud-laboratorio-azure-docker-gh-actions](https://github.com/cbsumastre/cloud-laboratorio-azure-docker-gh-actions)
+3. Desplegar la app en Azure, usando Docker y Github Actions. [https://github.com/cbsumastre/cloud-laboratorio-azure-docker-gh-actions](https://github.com/cbsumastre/cloud-laboratorio-azure-docker-gh-actions) ✅
 4. Desplegar la app en AWS y la imagen de Docker en Docker Hub. [https://github.com/cbsumastre/cloud-laboratorio-aws-docker-hub](https://github.com/cbsumastre/cloud-laboratorio-aws-docker-hub)
